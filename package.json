@@ -1,0 +1,43 @@
+{
+  "name": "wingx",
+  "version": "1.0.1",
+  "main": "dist/wingx.common.js",
+  "module": "dist/wingx.esm.js",
+  "unpkg": "dist/wingx.js",
+  "files": [
+    "libs",
+    "dist"
+  ],
+  "description": "工具函数",
+  "scripts": {
+    "build": "node build/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangshengfei/wingxjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangshengfei/wingxjs/issues"
+  },
+  "homepage": "https://github.com/wangshengfei/wingxjs#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "fs-extra": "^4.0.2",
+    "rollup": "^0.50.0",
+    "rollup-plugin-buble": "^0.16.0",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-node-resolve": "^4.2.1",
+    "uglify-js": "^3.1.5"
+  },
+  "author": "wangshengfei (https://github.com/wangshengfei)",
+  "license": "MIT"
+}
